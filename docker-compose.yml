@@ -1,0 +1,6 @@
+web:
+  build: .
+  environment:
+    SPEC_URL: http://127.0.0.1/swagger.json
+  ports:
+    - 8080:80
